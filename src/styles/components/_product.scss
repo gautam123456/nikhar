@@ -1,0 +1,15 @@
+@import '../common/media';
+
+.product {
+  flex: 1;
+  margin-top: 15px;
+  background: url('../styles/assets/images/mobile/product.png') no-repeat center;
+  background-size: contain;
+  min-height: 400px;
+
+  @include screen-desktop {
+    order: 2;
+    -webkit-order: 2;
+    margin: 25px;
+  }
+}

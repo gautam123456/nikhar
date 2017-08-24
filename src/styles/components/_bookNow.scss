@@ -1,0 +1,12 @@
+.bookNow {
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  font-size: 1.8em;
+  border-radius: 2px;
+
+
+  &:hover {
+    text-decoration: none;
+  }
+}

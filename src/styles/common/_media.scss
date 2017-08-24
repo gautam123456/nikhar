@@ -1,0 +1,30 @@
+/*
+ * These are desktop-first media queries that allow us to add
+ * media queries within our code.
+ *
+ * This can be used by developers to include styles for the desired breakpoints as shown below
+ * i.e. To add a specific padding for big smart-phones for example
+ *
+      .myClass {
+            padding: 0px;
+
+            @include screen-desktop {
+                padding: 15px;
+            }
+        }
+*/
+
+/* Laptops, Desktops ----------- */
+
+@mixin screen-desktop {
+  @media only screen and (min-width : 1025px) {
+    @content;
+  }
+}
+
+/* I-pads, Surface, I-phones (landscape) ----------- */
+@mixin screen-iPad {
+  @media only screen and (min-width : 640px) {
+    @content;
+  }
+}

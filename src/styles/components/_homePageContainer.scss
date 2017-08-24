@@ -1,0 +1,23 @@
+@import "../variables/screen";
+@import "../common/media";
+
+.home-container {
+  background-color: $brand-color-lightest;
+  color: $brand-color;
+  font-weight: 100;
+  padding-top: 30px;
+
+  .flex {
+    flex-direction: column;
+
+
+    @include screen-desktop {
+      flex-direction: row;
+      padding: 50px 0;
+    }
+  }
+
+  @include screen-desktop {
+    padding-top: 50px;
+  }
+}

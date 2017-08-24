@@ -1,0 +1,16 @@
+@import "../common/media";
+
+.header {
+  height: 60px;
+  color: #fff;
+  border-bottom: 1px solid #551a8b;
+  background: url('../styles/assets/images/mobile/bg_header.jpg');
+
+  div{
+    height: 100%;
+
+    .fa {
+      margin-top: 17px;
+    }
+  }
+}

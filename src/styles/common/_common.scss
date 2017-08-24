@@ -1,0 +1,131 @@
+@import "../variables/screen";
+@import "../common/media";
+
+button {
+  border: none;
+  background-color: $brand-color-2;
+  color: #fff;
+
+  &:hover {
+    background-color: $brand-color-2-hover;
+  }
+}
+
+.w{
+  color: #fff;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.width100{
+  width: 100%;
+}
+
+.pad0 {
+  padding: 0;
+}
+
+.margin5 {
+  margin: 5px;
+}
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.margin-auto{
+  margin: auto;
+}
+
+.margin100{
+  margin-bottom: 100px;
+  min-height: 100px;
+  border: 1px solid red;
+}
+
+input{
+  font-size: 16px;
+  border: 1px solid $border-color;
+  color: $font-color;
+  background-color: transparent;
+}
+
+textarea {
+  background-color: transparent;
+  padding: 5px;
+  color: $font-color;
+  border-color: $border-color;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  transition: background-color .5s;
+}
+
+select{
+  border: 1px solid $border-color;
+  color: $font-color;
+  height: 40px;
+  background-color: transparent;
+}
+
+.message {
+  color: $brand-color;
+}
+
+.grey-overlay {
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 3333;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+
+input[type='text'], input[type='number'], select, textarea {
+  &:focus {
+    border-bottom: 1px solid $brand-color-lightest;
+  }
+}
+
+.cli {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.separator {
+  margin: auto;
+  display: block;
+  width: 100%;
+
+  @include screen-desktop {
+    width: 40%;
+  }
+}
+
+

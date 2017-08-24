@@ -1,0 +1,21 @@
+{
+  "minBooking": 800,
+  "convenienceCharges": 0,
+  "subTotal": 0,
+  "servicesCount": 0,
+  "discount": 0,
+  "couponcode": "",
+  "location": "Delhi",
+  "addresslkey": "",
+  "services": {},
+  "otp": "",
+  "hashIndex": "",
+  "addressList": "",
+  "date": "",
+  "timing": "",
+  "name": null,
+  "mailId": "",
+  "total": 0,
+  "refCount": 0,
+  "totalrefcount": 0
+}

@@ -1,0 +1,31 @@
+@import "../variables/screen";
+@import "../common/media";
+
+.productContent {
+  border-radius: 2px;
+  flex: 1;
+  padding: 25px;
+
+  ul {
+    text-align: center;
+
+    h2 {
+
+      .fa {
+        font-size: 0.7em;
+      }
+      margin-bottom: 7px;
+    }
+
+    p {
+      color: $brand-color-lighter;
+      margin-bottom: 25px;
+      font-size: 1.1em;
+    }
+  }
+
+  @include screen-desktop {
+    order: 1;
+    -webkit-order: 1;
+  }
+}

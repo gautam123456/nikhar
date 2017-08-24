@@ -1,0 +1,15 @@
+@import "../common/media";
+
+.bookNowHome {
+  flex: 1;
+  padding: 25px;
+
+  .m {
+    margin-top: 45%;
+  }
+
+  @include screen-desktop {
+    order: 3;
+    -webkit-order: 3;
+  }
+}
